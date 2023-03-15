@@ -10,7 +10,9 @@ GitHug Pages: https://eugee29.github.io/business-rating/
 
 ## Screenshots
 
-<h1 align="center">
-  Desktop
+<div>
+  <h1>
+    Desktop
+  </h1>
   <img src="/assets/screenshots/desktop.png" />
-</h1>
+<div/>
