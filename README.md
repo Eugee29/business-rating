@@ -12,4 +12,4 @@ GitHug Pages: https://eugee29.github.io/business-rating/
 
 Desktop                    |  Mobile
 :-------------------------:|:-------------------------:
-![Desktop](/assets/screenshots/desktop.png)  |  ![Mobile](/assets/screenshots/desktop.png)
+![Desktop](/assets/screenshots/desktop.png)  |  ![Mobile](/assets/screenshots/mobile.png)
