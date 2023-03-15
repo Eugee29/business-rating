@@ -11,8 +11,14 @@ GitHug Pages: https://eugee29.github.io/business-rating/
 ## Screenshots
 
 <div>
-  <h1>
+  <h6>
     Desktop
-  </h1>
+  </h6>
   <img src="/assets/screenshots/desktop.png" />
+<div/>
+<div>
+  <h6>
+    Mobile
+  </h6>
+  <img src="/assets/screenshots/mobile.png" />
 <div/>
