@@ -4,10 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <title>Business Rating</title>
   </head>
-  <body>
+  <body onload="main()">
+    <div class="layout">
+      <div class="modal">
+        <header class="header">
+          <h1>דירוג העסק</h1>
+          <img src="assets/close.svg" alt="close" />
+        </header>
+        <form class="body">
+          <section>
+            <h2 class="title">עד כמה היית מרוצה מהעסק?</h2>
+            <ul class="aspects"></ul>
+          </section>
+          <section>
+            <h2 class="title">כמה מילים על החוויה שלך עם העסק</h2>
+            <textarea rows="4" placeholder="יש להקליד כאן..."></textarea>
+          </section>
+          <section>
+            <label class="image-upload-label" for="image-upload"
+              >הוספת תמונה</label
+            >
+            <input type="file" id="image-upload" />
+          </section>
+          <section class="agreement">
+            <input type="checkbox" id="agreement-checkbox" />
+            <label class="agreement-label" for="agreement-checkbox"
+              >קראתי את <a href="#">תנאי השימוש</a> והם מקובלים עלי</label
+            >
+          </section>
+          <div class="footer">
+            <button class="submit-btn" type="submit">שיתוף תגובה</button>
+            <button class="cancel-btn">ביטול</button>
+          </div>
+        </form>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
