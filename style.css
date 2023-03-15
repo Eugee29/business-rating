@@ -121,7 +121,7 @@ button {
 }
 
 .modal .body .image-upload-label::before {
-  content: url('/assets/gallery.svg');
+  content: url('./assets/gallery.svg');
   display: flex;
   align-items: center;
 }
@@ -175,7 +175,7 @@ button {
   height: 24px;
   width: 36px;
   background: none;
-  background-image: url('/assets/star-empty.svg');
+  background-image: url('./assets/star-empty.svg');
   background-repeat: no-repeat;
   background-position: center;
   border: none;
