@@ -33,10 +33,10 @@ const main = () => {
       star.onclick = () => {
         elStars.forEach((star, j) => {
           if (j <= i) {
-            star.style.backgroundImage = "url('/assets/star-full.svg')"
+            star.style.backgroundImage = "url('./assets/star-full.svg')"
             star.setAttribute('selected', true)
           } else {
-            star.style.backgroundImage = "url('/assets/star-empty.svg')"
+            star.style.backgroundImage = "url('./assets/star-empty.svg')"
             star.removeAttribute('selected')
           }
         })
@@ -45,14 +45,14 @@ const main = () => {
       star.onmouseover = () => {
         elStars.forEach((star, j) => {
           if (j <= i)
-            star.style.backgroundImage = "url('/assets/star-full.svg')"
+            star.style.backgroundImage = "url('./assets/star-full.svg')"
         })
       }
 
       star.onmouseleave = () => {
         elStars.forEach((star, j) => {
           if (!star.hasAttribute('selected'))
-            star.style.backgroundImage = "url('/assets/star-empty.svg')"
+            star.style.backgroundImage = "url('./assets/star-empty.svg')"
         })
       }
     })
